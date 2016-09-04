@@ -4,7 +4,7 @@ chrome.runtime.onInstalled.addListener(function () {
             {
                 conditions: [
                     new chrome.declarativeContent.PageStateMatcher({
-                        pageUrl: { urlPrefix: "https://wwws.mint.com/transaction.event" }
+                        pageUrl: { urlPrefix: "https://mint.intuit.com/transaction.event" }
                     })
                 ],
                 actions: [ new chrome.declarativeContent.ShowPageAction() ]
