@@ -16,7 +16,7 @@
     "content_scripts": 
     [
         {
-            "matches"           : ["https://*.mint.com/*"],
+            "matches"           : ["https://mint.intuit.com/*"],
             "css"               : ["css/main.css"],
             "js"                : [
                                     "js/jquery.min.js", 
